@@ -1,6 +1,20 @@
 const crowfallCrafting = {
-  "basic_resources": {
-    
+  "core_resources" : {
+    "basic_resources" : {
+      "Animal" : ["Blood Vial", "Bone", "Raw Milk"],
+      "Basic" : ["Cobble", "Knotwood", "Slag"],
+      "Forage" : ["Beeswax", "Button Mushroom", "Chanterelle Mushroom", "Bloodworm", "Pine Nuts", "Powdered Stone", "Wood Grub"],
+      "Gems" : ["Diamond", "Emerald", "Ruby", "Sapphire", "Topaz"],
+      "Herbs and Spices" : ["Garlic", "Ginseng", "Mandrake", "Wild Onion"],
+      "Hide" : ["Durable", "Flexible", "Soft", "Strong", "Tough"],
+      "Animal Meat" : ["Auroch", "Boar", "Cat", "Elk", "Wolf"],
+      "Mineral" : ["Cinnabar", "Dolomite", "Halite", "Nitre", "Sulphur"],
+      "Ore" : ["Aurelium", "Copper", "Iron", "Silver", "Tin"],
+      "Other" : ["Chaos Ember", "Ethereal Dust", "Hunger Shard", "Water Flask"],
+      "Produce" : ["Apple", "Carrot", "Golden Apple", "Potato"],
+      "Stome" : ["Granite", "Limestone", "Marble", "Slate", "Travertine"],
+      "Wood" : ["Ash", "Ash Heartwood", "Birch", "Birch Heartwood", "Oak", "Oak Heartwood", "Spruce", "Spruce Heartwood", "Yew", "Yew Heartwood"]
+    }
   },
   "basic_crafting": {
 
@@ -10,7 +24,7 @@ const crowfallCrafting = {
   }
 }
 
-Example
+Example:
 {
     "stuff": {
         "onetype": [
