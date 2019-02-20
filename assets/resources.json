@@ -1,0 +1,25 @@
+const crowfallCrafting = {
+  "basic_resources": {
+    
+  },
+  "basic_crafting": {
+
+  },
+  "discipline_crafting": {
+
+  }
+}
+
+Example
+{
+    "stuff": {
+        "onetype": [
+            {"id":1,"name":"John Doe"},
+            {"id":2,"name":"Don Joeh"}
+        ],
+        "othertype": {"id":2,"company":"ACME"}
+    },
+    "otherstuff": {
+        "thing": [[1,42],[2,2]]
+     }
+}
