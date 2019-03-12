@@ -2,7 +2,7 @@
 
 In Progress
 -Resources
-  +Objects {Item Name, Class Usability, Resources Required, Optional?, Changes Outcome?, Station Used, Requires Discipline?}}
+  +Objects {Item Name, Class Usability, Resources Required, Optional?, Changes Outcome?, Station Used, Requires Discipline?}
   +Add All Basic Resources
   +Add All Basic Crafting
   +Add All Specialized Crafting

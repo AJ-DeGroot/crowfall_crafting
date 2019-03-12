@@ -1,12 +1,25 @@
-<<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
   <head>
     <meta charset="utf-8">
     <title>Crowfall Crafting</title>
+
+    <link rel="stylesheet" href="assets\layout.css">
+    <script type="text/javascript" src="\assets\resources.js"></script>
+    <script type="text/javascript" src="\assets\basic_crafting.js"></script>
+    <script type="text/javascript" src="\assets\intermediate_crafting.js"></script>
+    <script type="text/javascript" src="\assets\hierarchy.js"></script>
   </head>
 
   <body>
+    <div>
+      <h2 id='title'>Crowfall Crafting</h2>
+      <script type="text/javascript">
+        displayResources(crowfallResources);
+        displayResources(crowfallBasic);
+        displayResources(crowfallIntermediate);
+      </script>
 
+    </div>
   </body>
 </html>
